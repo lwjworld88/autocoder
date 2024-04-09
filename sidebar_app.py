@@ -17,10 +17,13 @@ st.sidebar.write('**당신의 선택**:', your_option)
 # ---------- 메인(Main) 화면 구성 --------------------
 st.title("스트림릿의 사이드바 사용 예")
 
-folder = 'https://github.com/lwjworld88/autocoder/blob/main/'
+# folder = 'https://github.com/lwjworld88/autocoder/blob/main/'
 
 # selectbox_options의 요소에 따라서 보여줄 이미지 파일 리스트(selectbox_options의 요소와 순서를 일치시킴)
-image_files = ['Vermeer.png', 'Gogh.png', 'Munch.png', 'ShinYoonbok.png']           # 이미지 파일 리스트
+image_files = ['https://github.com/lwjworld88/autocoder/blob/main/Vermeer.png', 
+               'https://github.com/lwjworld88/autocoder/blob/main/Gogh.png',
+               'https://github.com/lwjworld88/autocoder/blob/main/Munch.png',
+               'https://github.com/lwjworld88/autocoder/blob/main/ShinYoonbok.png']           # 이미지 파일 리스트
 
 # 셀렉트박스에서 선택한 항목에 따라 이미지 표시
 selectbox_options_index = selectbox_options.index(your_option)  # selectbox_options의 리스트 인덱스 찾기
